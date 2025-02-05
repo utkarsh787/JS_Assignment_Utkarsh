@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
-/* #userContainer {
+#userContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-} */
+}
 .user-card {
     border: 1px solid #ddd;
     padding: 15px;
