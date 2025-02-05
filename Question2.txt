@@ -1,0 +1,48 @@
+Q2)What are data types in Javascript? Explain the different types of data types with examples.
+
+JavaScript has two categories of data types:
+
+    Primitive Data Types (Immutable, stored by value)
+    Non-Primitive (Reference) Data Types (Mutable, stored by reference)
+
+    1. Primitive Data Types
+
+Primitive types are stored directly in memory and compared by value.
+(a) Number
+
+Represents both integers and floating-point numbers.
+let age = 25;    
+console.log(typeof age);
+
+(b) String
+
+A sequence of characters enclosed in single (' '), double (" "), or backticks (` ` for template literals).
+et name = "John Doe";
+console.log(typeof name); // Output: "string"
+
+(c) Boolean
+
+Represents true or false values, mainly used in conditional logic.
+(d) Undefined
+
+A variable declared but not assigned any value.
+
+2. Non-Primitive (Reference) Data Types
+
+These types are stored by reference, meaning they don’t hold actual values but rather a reference to memory.
+(a) Object
+
+Used to store key-value pairs.
+
+let person = {
+    name: "Alice",
+    age: 30,
+    isStudent: false
+};
+console.log(typeof person); // Output: "object"
+
+(b) Array
+
+A special type of object that stores ordered values.
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(typeof fruits); // Output: "object"
