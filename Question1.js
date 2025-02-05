@@ -14,6 +14,7 @@ document.getElementById("fetchUsers").addEventListener("click", function() {
                     <p><strong>Email:</strong> ${user.email}</p>
                     <p><strong>Phone:</strong> ${user.phone}</p>
                     <p><strong>Website:</strong> <a href="https://${user.website}" target="_blank">${user.website}</a></p>
+                    
                 `;
                 userContainer.appendChild(userCard);
             });
